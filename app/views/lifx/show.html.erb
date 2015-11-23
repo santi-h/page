@@ -1,0 +1,27 @@
+<form action="<%= lifx_set_status_path %>" method="post">
+  Power:
+  <select name="power">
+    <option active selected value=""></option>
+    <option>ON</option>
+    <option>OFF</option>
+  </select>
+
+  Color:
+  <select name="color">
+    <option active selected value=""></option>
+    <option>white</option>
+    <option>red</option>
+    <option>orange</option>
+    <option>yellow</option>
+    <option>cyan</option>
+    <option>green</option>
+    <option>blue</option>
+    <option>purple</option>
+    <option>pink</option>
+  </select>
+
+  Brightness:
+  <input type="text" name="brightness">
+
+  <input type="submit" value="Submit">
+</form>
